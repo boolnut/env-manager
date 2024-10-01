@@ -1,5 +1,5 @@
 # Github Action : 
-Angyal-Technologies/env-manager@0.0.1
+boolnut/env-manager@v0.0.1
 
 
 # How to use:
@@ -7,7 +7,7 @@ Angyal-Technologies/env-manager@0.0.1
 1) Example: How to use action in existing flow
 ```
     - name: Environment Manager
-      uses: Angyal-Technologies/env-manager@0.0.1
+      uses: boolnut/env-manager@v0.0.1
 ```
 
 2) Sample Workflow
@@ -31,7 +31,7 @@ jobs:
         python-version: ${{ inputs.python_version }}
 
     - name: Environment Manager
-      uses: Angyal-Technologies/env-manager@0.0.1
+      uses: boolnut/env-manager@v0.0.1
       with:
         auth-token: 'moke_auth-token'
         project-id: 'moke_project-id'
